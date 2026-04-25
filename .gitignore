@@ -1,0 +1,24 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets (keep .env.example)
+.env
+.env.local
+
+# Chroma / backend local data (default path in api/services/rag.py)
+api/data/
+# Accidental nested path (some runs create api/api/data/ relative to wrong cwd)
+api/api/data/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
