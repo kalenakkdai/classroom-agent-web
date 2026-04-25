@@ -1,6 +1,13 @@
 # Parrot Classroom Agent
 
-A real-time multimodal classroom assistant based on the Parrot paper. Combines sentiment analysis, lecture summarization, curious-student question generation, and RAG-grounded Q&A into a single teacher-facing web dashboard.
+**Kalena Dai** (first author) maintains this repository: an open-source, teacher-facing web build of the classroom agent from our paper, co-authored with **Arya Sarukkai**. The stack covers sentiment analysis, lecture summarization, curious-student question generation, and RAG-grounded Q&A in one dashboard.
+
+## Paper
+
+**Parrot: An Agentic Classroom AI** (Kalena Dai, Arya Sarukkai) was presented as a workshop poster at the *ICML 2025* **Collaborative and Federated Agentic Workflows (CFAgentic @ ICML'25)** workshop, Vancouver, Canada, July 2025.
+
+- [OpenReview](https://openreview.net/forum?id=qx8NYuQh4v) — full paper
+- [ICML workshop program](https://icml.cc/virtual/2025/47971) — listing
 
 ## Architecture
 
